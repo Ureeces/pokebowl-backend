@@ -4,8 +4,15 @@
 // Check it out to see its content and shape!
 const pokemon = require('./pokemon.js');
 
+const getRow = function(search) {
+  for(const mon of pokemon) {
+    if(search === mon[0]) {
+      return mon;
+    }
+  }
 
-
+  return null;
+}
 
 // OUR code here.
 
