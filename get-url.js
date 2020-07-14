@@ -1,6 +1,11 @@
 // Your code here.
 // Note that you do NOT need the data for this function!
 
+// Problem - Given the row of the pokemon, which is a subarray,
+// return the url
+// URL is at index 1 of the row
+
+// 1. Simply return the index 1 at the given row, which is a subarray
 
 
 
